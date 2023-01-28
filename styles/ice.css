@@ -1,0 +1,57 @@
+body{
+    background-color: pink;
+}
+
+.thing1{
+    text-align: center;
+    color:white;
+    --hover-link-color: black
+}
+
+.thing1:hover{
+    text-align: center;
+    color:black;
+    --hover-link-color: black
+}
+
+.thing2{
+    text-align: center;
+    color: white;
+}
+
+.thing3{
+    text-align: center;
+    color: white;
+}
+
+.thing4{
+    text-align: center;
+    color: black;
+}
+
+img{
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.thing5{
+    text-align: center;
+    color: white;
+}
+
+.thing6{
+    text-align: center;
+    color: black;
+}
+
+.thing7{
+    text-align: center;
+    color: black;
+}
+
+#container{
+    width: 500px;
+    margin: 0 auto;
+}
