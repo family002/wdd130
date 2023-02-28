@@ -51,6 +51,10 @@ header{
     padding-top: 10px;
 }
 
+.logo{
+    width:80px;
+}
+
 #hero-img{
     width: 100%;
 }
@@ -81,7 +85,7 @@ header{
 
 nav a{
     text-align: center;
-    color: white;
+    color: rgb(0, 85, 255);
     text-decoration: none;
     padding: 35px;
 }
@@ -102,6 +106,8 @@ nav a:hover{
 
 .button-box{
     text-align: center;
+    grid-row: 3/4;
+    margin-top: 25px;
 }
 
 main section{
@@ -226,6 +232,11 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr)
 }
 
 @media screen and (max-width: 900px) {
