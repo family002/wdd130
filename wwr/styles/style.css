@@ -194,7 +194,7 @@ footer .social img{
 
 .card-img {
     border: 10px solid #d9c2a3;
-    width: 100%;
+    width: 30%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -237,6 +237,23 @@ nav {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr)
+}
+
+#descutes-img, #grande-heading, #rogue-img{
+    grid-column: 1/2;
+}
+
+#descutes-heading, #grande-img, #rogue-heading{
+    grid-column: 2/3;
+}
+
+#descutes-img{
+    text-align: center;
+}
+
+.rivers-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 900px) {
