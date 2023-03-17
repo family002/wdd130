@@ -114,11 +114,11 @@ main section{
     text-align: center;
 }
 
-main section img {
+main section img{
     box-sizing: border-box;
 }
 
-#background {
+#background{
     height: 725px;
     background-color:bisque;
     grid-column: 1/11;
