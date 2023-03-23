@@ -19,7 +19,7 @@ nav {
     justify-content: space-around;
 }
 
-nav a{
+/* nav a{
     text-align: center;
     color: #396E94;
     text-decoration: none;
@@ -29,6 +29,18 @@ nav a{
 nav a:hover{
     background-color: #396E94;
     color:white;
+} */
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: white;
+    color:#396E94;
 }
 
 .logo{
@@ -77,6 +89,14 @@ nav a:hover{
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr)
+}
+
+#home-grid2{
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 30% 69%;
+    grid-template-rows: 33% 33% 33%
 }
 
 #hero-img{
@@ -128,4 +148,19 @@ footer .social img{
     text-align: center;
     margin: 20px;
     font-size: 60px;
+}
+
+#hero-img1{
+    padding-top: 4px;
+    max-width: 400px;
+}
+#hero-img2{
+    max-width: 400px;
+}
+#hero-img3{
+    max-width: 400px;
+}
+
+#content3{
+    text-align: center;
 }
